@@ -1,0 +1,1 @@
+nohup python -u main.py run_all --forecast_model Transformer -num_head 8 --tau 10 --lr_da 0.01  --market csi300 --data_dir cn_data --rank_label False --begin_valid_epoch 30 --alpha 360 > logs/tfm_CSI300_360_da.log 2>&1 &
